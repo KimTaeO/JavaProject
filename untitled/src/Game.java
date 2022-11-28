@@ -26,7 +26,7 @@ class Game extends JFrame implements ActionListener, Runnable {
         this.init();
         this.start();
 
-        super.setSize(1000, 560);
+        super.setSize(520, 390);
 
         Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
 
